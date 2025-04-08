@@ -48,7 +48,7 @@
 <body>
     <!-- Header Section -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar_top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="Logo" class="img-fluid">
@@ -61,22 +61,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#agenda">agenda</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#speakers">speakers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#registration">registration</a>
+                            <a class="nav-link" href="#agenda">agenda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#faqs">faqs</a>
+                            <a class="nav-link" href="#press">press account</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -113,17 +110,16 @@
                 <div class="bannerTitle">
                     <h1>Theme Accelerate FLN<br /> Beat the NIPUN Deadline</h1>
                     <h2>Leadership Circle 3</h2>
-                    <p class="date">6-7 May 2025
-                        <span>WUCC Auditorium, LDA, Lucknow</span>
+                    <p class="date">6-7 May 2025 -
+                        <span>CSR | Govt | NGO | Training</span>
                     </p>
                     <div class="hero-link-wrapper">
-                        <a href="https://zfrmz.com/UAzl1aOhfsBwdft4TQOL" class="btn theme-hero-btn-one"
-                            target="_blank">Register
+                        <a href="https://zfrmz.com/UAzl1aOhfsBwdft4TQOL" class="fixedBtn" target="_blank">Register
                             Now</a>
-                        <a href="pdf/Leadership-Circle-Brochure.pdf" class="btn theme-hero-btn-two"
+                        <a href="pdf/Leadership-Circle-Brochure.pdf" class="globalBtnTransparent"
                             target="_blank">Download Brochure</a>
                         <a href="https://www.google.com/maps/dir//QVRV%2B979,+CMS,+LDA,+LDA+Colony,+Lucknow,+Uttar+Pradesh+226012/@26.7908929,80.8108295,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x399bfeac73f4f67f:0xd954117c321795bf!2m2!1d80.893231!2d26.7909167?entry=ttu&g_ep=EgoyMDI1MDIwOS4wIKXMDSoASAFQAw%3D%3D"
-                            class="btn theme-hero-btn-two" target="_blank">Venue</a>
+                            class="globalBtn" target="_blank">Venue</a>
                     </div>
                 </div>
             </div>
@@ -131,62 +127,21 @@
         <!-- Hero Section End -->
 
         <!-- Event Details Section -->
-        <section class="eventDetailsSection p-top">
+        <section class="eventDetailsSection p-top" id="about">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <h2 class="headingPrimary mb-0">Leadership <span>Circle</span></h2>
-                        <p class="subHeading">Boost FLN in just 30-45 days. Beat the NIPUN Deadline. </p>
+                <h2 class="headingPrimary mb-0">Leadership <span>Circle</span></h2>
+                <p class="subHeading">Boost FLN in just 30-45 days. Beat the NIPUN Deadline. </p>
+                <div class="borderOne"></div>
+                
+                <div class="nipunWrapper">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <button class="nav-link active" id="v-pills-whyAttend-tab" data-bs-toggle="pill" data-bs-target="#v-pills-whyAttend" type="button" role="tab" aria-controls="v-pills-whyAttend" aria-selected="true"><img src="images/icons/attend-01.png" alt="" class="icon"> Why attend?</button>
+                      <button class="nav-link" id="v-pills-comeAway-tab" data-bs-toggle="pill" data-bs-target="#v-pills-comeAway" type="button" role="tab" aria-controls="v-pills-comeAway" aria-selected="false"> <img src="images/icons/away-01.png" alt="" class="icon"> Come away with</button>
+                      <button class="nav-link" id="v-pills-dataDriven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dataDriven" type="button" role="tab" aria-controls="v-pills-dataDriven" aria-selected="false"> <img src="images/icons/csr-01.png" alt="" class="icon"> Data-Driven Insights</button>
                     </div>
-                </div>
-
-                <!-- <div class="row">
-                    <div class="col-4">
-                      <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
-                        <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
-                        <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
-                        <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
-                        <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
-                        <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
-                      </div>
-                    </div>
-                    <div class="col-8">
-                      <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-                        <h4 id="simple-list-item-1">Item 1</h4>
-                        <p>...</p>
-                        <h4 id="simple-list-item-2">Item 2</h4>
-                        <p>...</p>
-                        <h4 id="simple-list-item-3">Item 3</h4>
-                        <p>...</p>
-                        <h4 id="simple-list-item-4">Item 4</h4>
-                        <p>...</p>
-                        <h4 id="simple-list-item-5">Item 5</h4>
-                        <p>...</p>
-                      </div>
-                    </div>
-                  </div> -->
-                <!-- <div class="eventGrid">
-                    <div class="tabs">
-                      <ul id="tabMenu">
-                        <li><a href="#section1" class="tab-link active">
-                            <span class="icon">
-                                <img src="images/icons/attend-01.png" alt="" class="img-fluid" width="50px">
-                            </span>
-                            <h3 class="headingTertiary">Why attend?</h3>
-                        </a></li>
-                        <li><a href="#section2" class="tab-link"><span class="icon">
-                            <img src="images/icons/attend-01.png" alt="" class="img-fluid" width="50px">
-                        </span>
-                        <h3 class="headingTertiary">Come away with</h3></a></li>
-                        <li><a href="#section3" class="tab-link"><span class="icon">
-                            <img src="images/icons/attend-01.png" alt="" class="img-fluid" width="50px">
-                        </span>
-                        <h3 class="headingTertiary">Data-Driven Insights</h3></a></li>
-                      </ul>
-                    </div>
-                    <div class="tab-content">
-                      <div id="section1" class="tab-section">
-                        <div class="img-wrapper">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-whyAttend" role="tabpanel" aria-labelledby="v-pills-whyAttend-tab" tabindex="0">
+                        <div class="imgWrapper">
                             <img src="images/icons/attend-01.png" alt="" class="img-fluid">
                         </div>
                         <ul class="primary-list">
@@ -196,9 +151,9 @@
                             <li><strong>Network</strong> with like-minded policymakers and educationists to journey with. </li>
                         </ul>
                       </div>
-                      <div id="section2" class="tab-section">
-                        <div class="img-wrapper">
-                            <img src="images/icons/attend-01.png" alt="" class="img-fluid">
+                      <div class="tab-pane fade" id="v-pills-comeAway" role="tabpanel" aria-labelledby="v-pills-comeAway-tab" tabindex="0">
+                        <div class="imgWrapper">
+                            <img src="images/icons/away-01.png" alt="" class="img-fluid">
                         </div>
                         <ul class="primary-list">
                             <li><strong>Actionable plan</strong> for FLN acceleration, tailored to your region.</li>
@@ -207,28 +162,26 @@
                             <li><strong>Impact</strong> evidence-based strategies, teacher training, and more.</li>
                         </ul>
                       </div>
-                      <div id="section3" class="tab-section">
-                        <div class="img-wrapper">
-                            <img src="images/icons/attend-01.png" alt="" class="img-fluid">
+                      <div class="tab-pane fade" id="v-pills-dataDriven" role="tabpanel" aria-labelledby="v-pills-dataDriven-tab" tabindex="0">
+                        <div class="imgWrapper">
+                            <img src="images/icons/csr-01.png" alt="" class="img-fluid">
                         </div>
-                        <ul class="primary list">
+                        <ul class="csr-list">
                             <li>Study Research Designs</li>
                             <li>Visit Model Schools</li>
                             <li>Join Our Community</li>
                         </ul>
                       </div>
                     </div>
-                  </div> -->
-
-            </div>
+                  </div>
             </div>
         </section>
         <!-- Event Details Section End -->
 
         <!-- Event Registration Section -->
-        <section class="eminentleaderssection p-top">
+        <section class="eminentleaderssection p-top p-bottom m-top">
             <div class="container">
-                <h2 class="headingPrimary">Eminent Leaders <span>Supporting Change</span></h2>
+                <h2 class="headingPrimary"><span>Eminent Leaders</span> Supporting Change</h2>
                 <div class="borderOne"></div>
                 <div class="row">
                     <div class="col-md-4">
@@ -303,9 +256,9 @@
         <!-- Event Registration Section End -->
 
         <!-- Event Highlights Section -->
-        <section class="governmentpanelSection p-top">
+        <section class="governmentpanelSection p-top" id="speakers">
             <div class="container">
-                <h2 class="headingPrimary">Eminent Leaders <span>Supporting Change</span></h2>
+                <h2 class="headingPrimary">Past <span>Speakers</span></h2>
                 <div class="borderOne"></div>
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -735,6 +688,18 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-3">
+                                <div class="panel">
+                                    <div class="panel-img">
+                                        <img src="images/past-speakers/ngo-panel/kanupriya-01.jpg" alt=""
+                                            class="img-responsive">
+                                    </div>
+                                    <div class="panel-content">
+                                        <h4 class="headingFour">KANUPRIYA MISRA</h4>
+                                        <p>World Bank</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="ngo-tab-pane" role="tabpanel" aria-labelledby="ngo-tab" tabindex="0">
@@ -1068,18 +1033,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="panel">
-                                    <div class="panel-img">
-                                        <img src="images/past-speakers/ngo-panel/kanupriya-01.jpg" alt=""
-                                            class="img-responsive">
-                                    </div>
-                                    <div class="panel-content">
-                                        <h4 class="headingFour">KANUPRIYA MISRA</h4>
-                                        <p>World Bank</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-md-3">
                                 <div class="panel">
                                     <div class="panel-img">
@@ -1117,7 +1071,7 @@
         <!-- Event Speakers Section -->
         <section class="pastparticipants p-top">
             <div class="container">
-                <h2 class="headingPrimary mb-0">PAST PARTICIPANTS</h2>
+                <h2 class="headingPrimary mb-0">PAST <span>PARTICIPANTS</span></h2>
                 <p class="subHeading">Leadership Circle 2.0 brought together leaders from across sectors - government,
                     NGOs & CSR - and from diverse geographies both within India and abroad.</p>
                 <div class="row align-items-end">
@@ -1191,8 +1145,11 @@
         <!-- Event Schedule Section -->
         <section class="rapidresultinitiativesSection p-top">
             <div class="container">
-                <h2 class="headingPrimary">Rapid result initiatives</h2>
-                <p class="subHeading"></p>
+                <h2 class="headingPrimary mb-0"><span>Rapid result</span> initiatives</h2>
+                <p class="subHeading">The ALfA pedagogy is spreading rapidly throughout India, particularly in
+                    aspirational districts of many states. DEVI also has state-wide MOUs with Himachal Pradesh and Jammu
+                    division of J&K.</p>
+                <div class="borderOne"></div>
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
                         <div class="mapWrapper">
@@ -1430,9 +1387,9 @@
         <!-- Event Schedule Section End -->
 
         <!-- Event Venue Section -->
-        <section class="highleveldeligations p-top">
+        <section class="highleveldeligations p-top m-top p-bottom">
             <div class="container">
-                <h2 class="headingPrimary"><span>High-Level</span> Delegations Exploring ALfA</h2>
+                <h2 class="headingPrimary">High-Level Delegations Exploring ALfA</h2>
                 <div id="news-slider" class="owl-carousel">
                     <div class="post-slide">
                         <div class="post-img">
@@ -1515,9 +1472,9 @@
         <!-- Event Venue Section End -->
 
         <!-- Event Contact Section -->
-        <section class="leadershipschedule p-top">
+        <section class="leadershipschedule p-top" id="agenda">
             <div class="container">
-                <h2 class="headingPrimary">Leadership <span>Circle Schedule</span></h2>
+                <h2 class="headingPrimary"><span>Leadership Circle</span> Schedule</h2>
                 <div class="row">
                     <div class="program-day">
                         <p><strong>DAY 1 :</strong> 6 May, 2025</p>
@@ -1652,9 +1609,9 @@
         <!-- Event Contact Section End -->
 
         <!-- Event FAQ Section -->
-        <section class="nipunroadmap p-top">
+        <section class="nipunroadmap p-top m-top p-bottom">
             <div class="container">
-                <h2 class="headingPrimary">A New <span>Roadmap to NIPUN</span></h2>
+                <h2 class="headingPrimary">A New Roadmap to NIPUN</h2>
                 <div class="row">
                     <div class="roadpmap-card">
                         <h2>scale</h2>
@@ -1691,17 +1648,198 @@
                         </ul>
                     </div>
                 </div>
-                <div class="rd-grid"><img src="images/rd-01.jpg" alt="" class="img img-responsive">
-                    <img src="images/rd-02.jpg" alt="" class="img img-responsive">
+                <div class="borderOne"></div>
+                <h2 class="headingPrimary"><i class="fa fa-inr" aria-hidden="true"></i>
+                    90 & 90 Days Per Child</h2>
+                <div class="rdGrid">
+                    <div class="rdGridItem">
+                        <div class="card-45">
+                            <div class="icon">45 Days</div>
+                            <h4 class="headingFour">Implementation</h4>
+                        </div>
+                    </div>
+                    <div class="rdGridItem">
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="rdGridItem">
+                        <div class="card-45">
+                            <div class="icon">45 Days</div>
+                            <h4 class="headingFour">Practice</h4>
+                        </div>
+                    </div>
+                    <div class="rdGridItem">
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="rdGridItem">
+                        <div class="card-45">
+                            <div class="icon">45 INR</div>
+                            <h4 class="headingFour">Material</h4>
+                        </div>
+                    </div>
+                    <div class="rdGridItem">
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="rdGridItem">
+                        <div class="card-45">
+                            <div class="icon">45 INR</div>
+                            <h4 class="headingFour">Training of Trainers</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Event FAQ Section End -->
+         
+        <!-- Event Partners Section -->
+        <section class="eventPartnersSection p-top" id="press">
+            <div class="container">
+                <h2 class="headingPrimary mb-0"><span>Press</span> Accounts</h2>
+                <p class="subHeading">Accelerating Learning for All garners policymaker attention</p>
+                <div class="borderOne"></div>
+
+                <div class="col-lg-10 col-md-12 mx-auto">
+                    <div class="eventGrid">
+                        <div class="eventBox">
+                            <div class="imgWrapper">
+                                <img src="images/press/press-01.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="eventDetails">
+                                <h3 class="headingTertiary">57 member HP delegation led by Education Minister Rohit
+                                    Thakur Highlights ALfA pedagogy success</h3>
+                                <div class="text-center">
+                                    <a target="_blank" href="" class="globalBtn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eventBox">
+                            <div class="imgWrapper">
+                                <img src="images/press/press-02.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="eventDetails">
+                                <h3 class="headingTertiary">DEVI Sansthan's Report Outlines Blueprint for National
+                                    Literacy by 2026</h3>
+                                <div class="text-center">
+                                    <a target="_blank" href="" class="globalBtn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eventBox">
+                            <div class="imgWrapper">
+                                <img src="images/press/press-03.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="eventDetails">
+                                <h3 class="headingTertiary">DEVI Sansthan: ALfA Initiative Can Fast-Track India's
+                                    Literacy Goals</h3>
+                                <div class="text-center">
+                                    <a target="_blank" href="" class="globalBtn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eventBox">
+                            <div class="imgWrapper">
+                                <img src="images/press/press-04.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="eventDetails">
+                                <h3 class="headingTertiary">‘Accelerating Learning for All’ method can help India
+                                    achieve NIPUN goals</h3>
+                                <div class="text-center">
+                                    <a target="_blank" href="" class="globalBtn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eventBox last">
+                            <div class="imgWrapper">
+                                <img src="images/press/press-05.jpg" alt="" class="img-fluid"
+                                    style="object-position: bottom;">
+                            </div>
+                            <div class="eventDetails">
+                                <h3 class="headingTertiary">DEVI Sansthan unveils ‘One Tara App’ at the
+                                    Global Learning Lab Conclave in Lucknow</h3>
+                                <div class="text-center">
+                                    <a target="_blank" href="" class="globalBtn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Event Partners Section End -->
+
+        <!-- Event Media Section -->
+        <section class="eventMediaSection p-top">
+            <div class="container">
+                <h2 class="headingPrimary mb-0"><span>Major Outcomes</span> & Achievements</h2>
+                <p class="subHeading">MOUs Signed for OneTara Implementation</p>
+                <div class="borderOne"></div>
+
+                <div class="tableWrapper">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Organisation</th>
+                                <th>Geography</th>
+                                <th># of Learners</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Golden Future Trust</td>
+                                <td>Lucknow, UP</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <td>Naya Savera Foundation</td>
+                                <td>Gurgaon, Haryana</td>
+                                <td>325</td>
+                            </tr>
+                            <tr>
+                                <td>Vedanta Sanskar Shala</td>
+                                <td>Ludhiana, Punjab</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>ABSSSS</td>
+                                <td>Lucknow, UP</td>
+                                <td>450</td>
+                            </tr>
+                            <tr>
+                                <td>Diya Baati Foundation</td>
+                                <td>Lucknow & Shravasti</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Ramchij Smundri Charitable Trust</td>
+                                <td>Ballia, UP</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Manar Utkan Charitable Trust</td>
+                                <td>UP</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>Haritayan Foundation</td>
+                                <td>Ballia, UP</td>
+                                <td>942</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- Event Media Section End -->
 
         <!-- Event Testimonials Section -->
         <section class="conferenceArea p-top">
             <div class="container">
-                <h2 class="headingPrimary mb-0">Ed Leadership Conferences</h2>
+                <h2 class="headingPrimary mb-0"><span>Ed Leadership</span> Conferences</h2>
                 <p class="subHeading">LEADING UP TO THE GLOBAL LEARNING LAB</p>
                 <div class="borderOne"></div>
                 <div class="conference-wrapper">
@@ -1895,51 +2033,117 @@
         </section>
         <!-- Event Testimonials Section End -->
 
-        <!-- Event Sponsors Section -->
-        <section class="eventSponsorsSection">
-            <div class="container"></div>
-        </section>
-        <!-- Event Sponsors Section End -->
-
-        <!-- Event Partners Section -->
-        <section class="eventPartnersSection">
-            <div class="container"></div>
-        </section>
-        <!-- Event Partners Section End -->
-
-        <!-- Event Media Section -->
-        <section class="eventMediaSection">
-            <div class="container"></div>
-        </section>
-        <!-- Event Media Section End -->
 
         <!-- Event Social Media Section -->
-        <section class="eventSocialMediaSection">
-            <div class="container"></div>
+        <section class="eventImpactSection p-top m-top p-bottom">
+            <div class="container">
+                <h2 class="headingPrimary">Impact and Future Roadmap</h2>
+                <p>Dr. Sunita Gandhi, Founder of DEVI Sansthan and One Tara, underscored the significance of
+                    collaborative efforts in transforming education. She stated, “These partnerships are not just
+                    agreements—they symbolize a shared commitment to achieving FLN at scale. Through collective action,
+                    we can build a brighter and more equitable future.”</p>
+                <p>Leadership Circle 2 set the ambitious goal of reaching over 500,000 students in the next five years,
+                    through OneTara.
+                    Leadership Circle 2 reaffirmed the commitment of DEVI Sansthan and its partners to achieving
+                    universal literacy through innovative pedagogies, strategic collaborations, and sustainable CSR
+                    investments. The event successfully mobilized educators, policymakers, and corporate leaders towards
+                    the shared goal of achieving FLN for all before the NIPUN deadline.</p>
+            </div>
         </section>
         <!-- Event Social Media Section End -->
 
-        <!-- Event Newsletter Section -->
-        <section class="eventNewsletterSection">
-            <div class="container"></div>
+        <section class="alfaSection p-top">
+            <div class="container">
+                <div class="alfaGrid">
+                    <div class="alfaGridItem">
+                        <div class="imgWrapper"><img src="images/alfa-01.jpg" alt="" class="img-fluid"></div>
+                    </div>
+                    <div class="alfaGridItem">
+                        <div class="logoWrapper"><img src="images/alfa-logo.jpg" alt="" class="img-fluid"></div>
+                        <div class="owl-carousel owl-theme alfaSlider">
+                            <div class="item">
+                                <div class="imgWrapper">
+                                    <img src="images/alfa-02.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imgWrapper">
+                                    <img src="images/alfa-03.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imgWrapper">
+                                    <img src="images/alfa-04.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="borderOne"></div>
+                <div class="col-md-8 mx-auto">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <p>
+                                <strong>Accelerate FLN</strong> <br>Beat the NIPUN Deadline <br> <strong>6-7 MAY,
+                                    2025</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="logoWrapper"><img src="images/nipun-logo-01.jpg" alt="" class="img-fluid"></div>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="last">
+                                <strong>World Unity Convention Centre</strong> <br>CMS LDA Campus <br> <strong>Lucknow,
+                                    Uttar Pradesh</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- Event Newsletter Section End -->
-
-        <!-- Event Footer Section -->
-        <section class="eventFooterSection">
-            <div class="container"></div>
-        </section>
-        <!-- Event Footer Section End -->
-
-        <!-- Event Privacy Policy Section -->
-        <section class="eventPrivacyPolicySection">
-            <div class="container"></div>
-        </section>
-        <!-- Event Privacy Policy Section End -->
     </main>
     <!-- Main Section End -->
 
-    <footer></footer>
+    <footer class="m-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="200">
+                    <div class="info">
+                        <div class="icon">
+                            <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="info-link">
+                            <a href="tel:+91-7408406000">+91-740 840 6000</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="300">
+                    <div class="info">
+                        <div class="icon">
+                            <i class='fa fa-globe fa-3x'></i>
+                        </div>
+                        <div class="info-link">
+                            <a href="https://dignityeducation.org/circle" target="_blank"
+                                rel="noopener noreferrer">www.dignityeducation.org/circle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="400">
+                    <div class="info">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="info-link">
+                            <a href="mailto:info@dignityeducation.org">info@dignityeducation.org</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- External Script Linked -->
